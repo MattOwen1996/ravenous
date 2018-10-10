@@ -15,7 +15,7 @@ const business = {
 
 class Business extends React.Component {
   render() {
-    return {
+    return (
       <div className="Business">
         <div className="image-container">
           <img src={business.imageSrc} />
@@ -34,7 +34,7 @@ class Business extends React.Component {
           </div>
         </div>
       </div>
-    }
+    );
   }
 }
 
